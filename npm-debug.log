@@ -1,0 +1,193 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'update',
+1 verbose cli   '-g',
+1 verbose cli   'generator-refactoru-html' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.31
+4 verbose node symlink /usr/local/bin/node
+5 verbose cache add [ 'generator-refactoru-html', '*' ]
+6 verbose cache add name="generator-refactoru-html" spec="*" args=["generator-refactoru-html","*"]
+7 verbose parsed url { protocol: null,
+7 verbose parsed url   slashes: null,
+7 verbose parsed url   auth: null,
+7 verbose parsed url   host: null,
+7 verbose parsed url   port: null,
+7 verbose parsed url   hostname: null,
+7 verbose parsed url   hash: null,
+7 verbose parsed url   search: null,
+7 verbose parsed url   query: null,
+7 verbose parsed url   pathname: '*',
+7 verbose parsed url   path: '*',
+7 verbose parsed url   href: '*' }
+8 verbose addNamed [ 'generator-refactoru-html', '*' ]
+9 verbose addNamed [ null, '*' ]
+10 silly lockFile dbbc1580-generator-refactoru-html generator-refactoru-html@*
+11 verbose lock generator-refactoru-html@* /Users/student/.npm/dbbc1580-generator-refactoru-html.lock
+12 silly addNameRange { name: 'generator-refactoru-html', range: '*', hasData: false }
+13 verbose url raw generator-refactoru-html
+14 verbose url resolving [ 'https://registry.npmjs.org/', './generator-refactoru-html' ]
+15 verbose url resolved https://registry.npmjs.org/generator-refactoru-html
+16 info trying registry request attempt 1 at 11:54:20
+17 verbose etag "1JBKJVLR1UW0RX2NFB62U167U"
+18 http GET https://registry.npmjs.org/generator-refactoru-html
+19 http 304 https://registry.npmjs.org/generator-refactoru-html
+20 silly registry.get cb [ 304,
+20 silly registry.get   { date: 'Tue, 27 Jan 2015 18:54:21 GMT',
+20 silly registry.get     server: 'Apache',
+20 silly registry.get     via: '1.1 varnish',
+20 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 18:54:21 GMT',
+20 silly registry.get     'cache-control': 'max-age=60',
+20 silly registry.get     etag: '"1JBKJVLR1UW0RX2NFB62U167U"',
+20 silly registry.get     age: '0',
+20 silly registry.get     'x-served-by': 'cache-sjc3124-SJC',
+20 silly registry.get     'x-cache': 'MISS',
+20 silly registry.get     'x-cache-hits': '0',
+20 silly registry.get     'x-timer': 'S1422384861.003891,VS0,VE163',
+20 silly registry.get     vary: 'Accept',
+20 silly registry.get     'content-length': '0',
+20 silly registry.get     'keep-alive': 'timeout=10, max=50',
+20 silly registry.get     connection: 'Keep-Alive' } ]
+21 verbose etag generator-refactoru-html from cache
+22 silly addNameRange number 2 { name: 'generator-refactoru-html', range: '*', hasData: true }
+23 silly addNameRange versions [ 'generator-refactoru-html',
+23 silly addNameRange   [ '0.0.0',
+23 silly addNameRange     '0.0.1',
+23 silly addNameRange     '0.0.2',
+23 silly addNameRange     '0.1.0',
+23 silly addNameRange     '0.1.1',
+23 silly addNameRange     '0.2.0',
+23 silly addNameRange     '0.3.0',
+23 silly addNameRange     '0.3.1',
+23 silly addNameRange     '0.3.2',
+23 silly addNameRange     '0.5.0' ] ]
+24 verbose addNamed [ 'generator-refactoru-html', '0.5.0' ]
+25 verbose addNamed [ '0.5.0', '0.5.0' ]
+26 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+27 verbose lock generator-refactoru-html@0.5.0 /Users/student/.npm/f37c81d7-generator-refactoru-html-0-5-0.lock
+28 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+29 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+30 silly lockFile dbbc1580-generator-refactoru-html generator-refactoru-html@*
+31 silly lockFile dbbc1580-generator-refactoru-html generator-refactoru-html@*
+32 info outdated updating [ [ '/usr/local/lib',
+32 info outdated     'generator-refactoru-html',
+32 info outdated     '0.3.2',
+32 info outdated     '0.5.0',
+32 info outdated     '*' ] ]
+33 verbose install where,what [ '/usr/local/lib', [ 'generator-refactoru-html@0.5.0' ] ]
+34 verbose cache add [ 'generator-refactoru-html@0.5.0', null ]
+35 verbose cache add name=undefined spec="generator-refactoru-html@0.5.0" args=["generator-refactoru-html@0.5.0",null]
+36 verbose parsed url { protocol: null,
+36 verbose parsed url   slashes: null,
+36 verbose parsed url   auth: null,
+36 verbose parsed url   host: null,
+36 verbose parsed url   port: null,
+36 verbose parsed url   hostname: null,
+36 verbose parsed url   hash: null,
+36 verbose parsed url   search: null,
+36 verbose parsed url   query: null,
+36 verbose parsed url   pathname: 'generator-refactoru-html@0.5.0',
+36 verbose parsed url   path: 'generator-refactoru-html@0.5.0',
+36 verbose parsed url   href: 'generator-refactoru-html@0.5.0' }
+37 verbose cache add name="generator-refactoru-html" spec="0.5.0" args=["generator-refactoru-html","0.5.0"]
+38 verbose parsed url { protocol: null,
+38 verbose parsed url   slashes: null,
+38 verbose parsed url   auth: null,
+38 verbose parsed url   host: null,
+38 verbose parsed url   port: null,
+38 verbose parsed url   hostname: null,
+38 verbose parsed url   hash: null,
+38 verbose parsed url   search: null,
+38 verbose parsed url   query: null,
+38 verbose parsed url   pathname: '0.5.0',
+38 verbose parsed url   path: '0.5.0',
+38 verbose parsed url   href: '0.5.0' }
+39 verbose addNamed [ 'generator-refactoru-html', '0.5.0' ]
+40 verbose addNamed [ '0.5.0', '0.5.0' ]
+41 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+42 verbose lock generator-refactoru-html@0.5.0 /Users/student/.npm/f37c81d7-generator-refactoru-html-0-5-0.lock
+43 verbose url raw generator-refactoru-html/0.5.0
+44 verbose url resolving [ 'https://registry.npmjs.org/',
+44 verbose url resolving   './generator-refactoru-html/0.5.0' ]
+45 verbose url resolved https://registry.npmjs.org/generator-refactoru-html/0.5.0
+46 info trying registry request attempt 1 at 11:54:21
+47 verbose etag "1JBKJVLR1UW0RX2NFB62U167U"
+48 http GET https://registry.npmjs.org/generator-refactoru-html/0.5.0
+49 http 304 https://registry.npmjs.org/generator-refactoru-html/0.5.0
+50 silly registry.get cb [ 304,
+50 silly registry.get   { date: 'Tue, 27 Jan 2015 18:54:21 GMT',
+50 silly registry.get     server: 'Apache',
+50 silly registry.get     via: '1.1 varnish',
+50 silly registry.get     'last-modified': 'Tue, 27 Jan 2015 18:54:21 GMT',
+50 silly registry.get     'cache-control': 'max-age=60',
+50 silly registry.get     etag: '"1JBKJVLR1UW0RX2NFB62U167U"',
+50 silly registry.get     age: '0',
+50 silly registry.get     'x-served-by': 'cache-sjc3128-SJC',
+50 silly registry.get     'x-cache': 'MISS',
+50 silly registry.get     'x-cache-hits': '0',
+50 silly registry.get     'x-timer': 'S1422384861.492875,VS0,VE95',
+50 silly registry.get     vary: 'Accept',
+50 silly registry.get     'content-length': '0',
+50 silly registry.get     'keep-alive': 'timeout=10, max=50',
+50 silly registry.get     connection: 'Keep-Alive' } ]
+51 verbose etag generator-refactoru-html/0.5.0 from cache
+52 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+53 silly lockFile f37c81d7-generator-refactoru-html-0-5-0 generator-refactoru-html@0.5.0
+54 silly resolved [ { name: 'generator-refactoru-html',
+54 silly resolved     version: '0.5.0',
+54 silly resolved     description: 'Yeoman generator for a simple HTML5 boilerplate.',
+54 silly resolved     license: 'ISC',
+54 silly resolved     main: 'app/index.js',
+54 silly resolved     repository:
+54 silly resolved      { type: 'git',
+54 silly resolved        url: 'git://github.com/RefactorU/generator-refactoru-html' },
+54 silly resolved     author:
+54 silly resolved      { name: 'Raine Lourie',
+54 silly resolved        email: 'raine@refactoru.com',
+54 silly resolved        url: 'https://github.com/metaraine' },
+54 silly resolved     engines: { node: '>=0.10.0' },
+54 silly resolved     scripts: { test: 'mocha' },
+54 silly resolved     files: [ 'app' ],
+54 silly resolved     keywords: [ 'yeoman-generator', 'refactoru' ],
+54 silly resolved     dependencies: { 'yeoman-generator': '~0.16.0', chalk: '~0.4.0' },
+54 silly resolved     devDependencies: { mocha: '*' },
+54 silly resolved     peerDependencies: { yo: '>=1.0.0' },
+54 silly resolved     readme: '# generator-refactoru-html [![Build Status](https://secure.travis-ci.org/metaraine/generator-refactoru-html.png?branch=master)](https://travis-ci.org/metaraine/generator-refactoru-html)\n\n> [Yeoman](http://yeoman.io) generator\n\n\n## Getting Started\n\n### What is Yeoman?\n\nTrick question. It\'s not a thing. It\'s this guy:\n\n![](http://i.imgur.com/JHaAlBJ.png)\n\nBasically, he wears a top hat, lives in your computer, and waits for you to tell him what kind of application you wish to create.\n\nNot every new computer comes with a Yeoman pre-installed. He lives in the [npm](https://npmjs.org) package repository. You only have to ask for him once, then he packs up and moves into your hard drive. *Make sure you clean up, he likes new and shiny things.*\n\n```\n$ npm install -g yo\n```\n\n### Yeoman Generators\n\nYeoman travels light. He didn\'t pack any generators when he moved in. You can think of a generator like a plug-in. You get to choose what type of application you wish to create, such as a Backbone application or even a Chrome extension.\n\nTo install generator-refactoru-html from npm, run:\n\n```\n$ npm install -g generator-refactoru-html\n```\n\nFinally, initiate the generator:\n\n```\n$ yo refactoru-html\n```\n\n### Getting To Know Yeoman\n\nYeoman has a heart of gold. He\'s a person with feelings and opinions, but he\'s very easy to work with. If you think he\'s too opinionated, he can be easily convinced.\n\nIf you\'d like to get to know Yeoman better and meet some of his friends, [Grunt](http://gruntjs.com) and [Bower](http://bower.io), check out the complete [Getting Started Guide](https://github.com/yeoman/yeoman/wiki/Getting-Started).\n\n\n## License\n\nMIT\n',
+54 silly resolved     readmeFilename: 'README.md',
+54 silly resolved     bugs: { url: 'https://github.com/RefactorU/generator-refactoru-html/issues' },
+54 silly resolved     _id: 'generator-refactoru-html@0.5.0',
+54 silly resolved     _from: 'generator-refactoru-html@0.5.0' } ]
+55 info install generator-refactoru-html@0.5.0 into /usr/local/lib
+56 info installOne generator-refactoru-html@0.5.0
+57 info /usr/local/lib/node_modules/generator-refactoru-html unbuild
+58 info preuninstall generator-refactoru-html@0.3.2
+59 info uninstall generator-refactoru-html@0.3.2
+60 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-refactoru-html@0.3.2
+61 info postuninstall generator-refactoru-html@0.3.2
+62 info /usr/local/lib/node_modules/generator-refactoru-html unbuild
+63 info preuninstall generator-refactoru-html@0.3.2
+64 info uninstall generator-refactoru-html@0.3.2
+65 verbose true,/usr/local/lib/node_modules,/usr/local/lib/node_modules unbuild generator-refactoru-html@0.3.2
+66 info postuninstall generator-refactoru-html@0.3.2
+67 error error rolling back Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html'
+67 error error rolling back  generator-refactoru-html@0.5.0 { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html']
+67 error error rolling back   errno: 3,
+67 error error rolling back   code: 'EACCES',
+67 error error rolling back   path: '/usr/local/lib/node_modules/generator-refactoru-html' }
+68 error Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html'
+68 error  { [Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html']
+68 error   errno: 3,
+68 error   code: 'EACCES',
+68 error   path: '/usr/local/lib/node_modules/generator-refactoru-html' }
+69 error Please try running this command again as root/Administrator.
+70 error System Darwin 14.0.0
+71 error command "node" "/usr/local/bin/npm" "update" "-g" "generator-refactoru-html"
+72 error cwd /Users/student/projects/func2
+73 error node -v v0.10.31
+74 error npm -v 1.3.11
+75 error path /usr/local/lib/node_modules/generator-refactoru-html
+76 error code EACCES
+77 error errno 3
+78 error stack Error: EACCES, unlink '/usr/local/lib/node_modules/generator-refactoru-html'
+79 verbose exit [ 3, true ]
