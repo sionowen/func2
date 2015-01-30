@@ -130,14 +130,27 @@ var or= function(array){
 
 console.log(or(boolarr))
 
-var stringArr = ["booyah", "something", "weeeeeee"]
+var stringArr = ["booyah", "something", "booyah", "weeeeeee"]
+
+
+
 
 var unique = function(array){
+	var sortedArray = array.sort();
+	console.log(sortedArray);
+	var uniqueArray = [];
+	for (var i = 0; i <  sortedArray.length; i++){
+		if (sortedArray[i] != sortedArray[i+1]){
+				uniqueArray.push(sortedArray[i])
+		}
+	}
+	return uniqueArray
+
 
 
 }
 
-
+console.log(unique(stringArr))
 
 
 
